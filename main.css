@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: rgb(196, 236, 223);
+    padding-top: 100px;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+form input {
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+form button{
+    background-color: rgb(10, 180, 25);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px ;
+    padding: 8px;
+    }
+
+    table{
+        width: 100%;
+
+    }
+    table th {
+        border-bottom: 2px solid #000 ;
+        padding: 16px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    table td {
+        padding: 12px;
+        text-align: center;
+        font-size: 18px;
+        border-bottom: 1px solid rgba(0,0,0, 0.5);
+    }
+    
+    #listaPessoas li{
+        font-size: 38px;
+    }
